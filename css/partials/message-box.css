@@ -1,0 +1,76 @@
+/* ==========================================================================
+    Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+.message-loading, .message-valid, .message-warning {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  font-weight: 700;
+}
+.message-loading:before, .message-valid:before, .message-warning:before {
+  display: flex;
+  align-items: center;
+  min-width: 3em;
+  font-family: "GLGlyphs", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  padding: .25em 1em;
+}
+
+.message-loading {
+  color: #3e3f40;
+}
+.message-loading:before {
+  background: #707274;
+  content: "\75";
+}
+
+.message-valid {
+  color: #286c20;
+}
+.message-valid:before {
+  background: #45bb37;
+  content: "\43";
+}
+
+.message-warning {
+  color: #ea3629;
+}
+.message-warning:before {
+  background: #f38d86;
+  content: "\33";
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+.info-box {
+  border-left: 0.3em solid #0099ed;
+  background: #edf9ff;
+  color: #0099ed;
+}
+
+.error-box {
+  border-left: 0.3em solid #ea3629;
+  background: #fce4e3;
+  color: #ea3629;
+}
+
+.valid-box {
+  border-left: 0.3em solid #286c20;
+  background: #7fd976;
+  color: #286c20;
+}

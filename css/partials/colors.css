@@ -1,0 +1,126 @@
+/* ==========================================================================
+    Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
+   ========================================================================== */
+.color-white {
+  background: #fafeff;
+}
+
+.color-black {
+  background: black;
+}
+
+.color-grey {
+  background: #3e3f40;
+}
+
+.color-light-grey {
+  background: #bbbebf;
+}
+
+.color-primary-red {
+  background: #ea3629;
+}
+
+.color-primary-green {
+  background: #3eb633;
+}
+
+.color-primary-blue {
+  background: #0099ed;
+}
+
+.color-primary-yellow {
+  background: #f99202;
+}
+
+.color-secondary-red {
+  background: #fad2c3;
+}
+
+.color-secondary-green {
+  background: #286c20;
+}
+
+.color-secondary-blue {
+  background: #cee6f7;
+}
+
+.color-secondary-yellow {
+  background: #fcef9d;
+}
+
+.text {
+  color: #454545;
+}
+
+.color-text {
+  background: #454545;
+}
+
+.color-link {
+  background: #ea3629;
+}
+
+.color-error {
+  background: #fad2c3;
+}
+
+.color-info {
+  background: #0099ed;
+}
+
+.color-success {
+  background: #286c20;
+}
+
+.link {
+  color: #ea3629;
+}
+
+.text-grey {
+  color: #3e3f40;
+}
+
+.text-light-grey {
+  color: #bbbebf;
+}
+
+.text-link {
+  color: #ea3629;
+}
+
+.text-white {
+  color: #fafeff;
+}
+
+.text-info {
+  color: #0099ed;
+}
+
+.text-muted,
+.muted {
+  color: #3e3f40;
+}
+
+.text-warning,
+.text-error {
+  color: #fad2c3;
+}
+
+.error,
+.is-error {
+  background: white;
+  color: #fad2c3;
+}
+
+.text-success {
+  color: #286c20;
+}
+
+.ie9 .gradient {
+  filter: none;
+}
+
+.ie9 [class*="gradient"] {
+  filter: none;
+}

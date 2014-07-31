@@ -1,0 +1,59 @@
+// Mixins and Variables
+// All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files
+@import "globals/allGlobals";
+
+/* Base */
+@import "partials/base";
+
+/* Layout */
+@import "partials/layout";
+
+/* Modules */
+
+@import "partials/nav";
+
+@import "partials/colors";
+
+@import "partials/typography";
+
+@import "partials/glglyphs";
+
+@import "partials/helpers";
+
+@import "partials/lists";
+
+@import "partials/summary";
+
+@import "partials/buttons";
+
+@import "partials/header";
+
+@import "partials/progress";
+
+@import "partials/pagination";
+
+@import "partials/pills";
+
+@import "partials/message-box";
+
+@import "partials/modals";
+
+@import "partials/accessibility";
+
+@import "partials/forms";
+
+@import "partials/drop";
+
+@import "partials/images";
+
+@import "partials/videos";
+
+@import "partials/tables";
+
+@import "partials/modules";
+
+@import "partials/jumpTo";
+
+@import "partials/prototype";
+
+@import "partials/styleguide";

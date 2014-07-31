@@ -1,0 +1,11 @@
+/* ==========================================================================
+    Header -- Version: 0.2.1
+    ========================================================================== */
+header {
+  overflow: auto;
+  padding-top: 1em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
