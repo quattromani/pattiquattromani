@@ -1,0 +1,12 @@
+# Site settings
+title: Patti Quattromani
+email: patti@pattiquattromani.com
+description: ""
+baseurl: ""
+url: "http://pattiquattromani.com"
+twitter_username: frogprincess1974
+github_username:  quattromani
+
+# Build settings
+markdown: kramdown
+permalink: pretty
