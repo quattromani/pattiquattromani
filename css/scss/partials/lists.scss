@@ -30,7 +30,7 @@ ul {
   }
 }
 
-// No-bulleted, but indented List Items
+// Non-bulleted, but indented List Items
 
 .indented {
   ~ ul {
@@ -38,7 +38,7 @@ ul {
   }
 
   li {
-    list-style: outside disc;
+    list-style: none;
     margin-left: $margin;
     border-bottom: 0;
   }

@@ -105,7 +105,7 @@ a {
   @include padding;
   background: transparent;
   vertical-align: baseline;
-  @include font-family($base-font);
+  font-family: inherit;
   font-weight: 700;
   color: $link;
   text-decoration: none;
@@ -265,23 +265,10 @@ samp {
 }
 
 /* ==========================
-    Logo
+    Helpers
    ========================== */
 
-.GLG {
-  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  letter-spacing: -1px;
+.section {
+  border-bottom: 1px solid $text;
 }
 
-.logo_slash,
-.division {
-  @include font-family($base-font);
-  font-weight: 200;
-}
-
-.division {
-  position: relative;
-  left: -.1em;
-  color: lighten($color-grey, 10%);
-}

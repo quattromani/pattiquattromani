@@ -40,7 +40,7 @@ ul ul {
   margin-bottom: 0;
 }
 .indented li {
-  list-style: outside disc;
+  list-style: none;
   margin-left: 1em;
   border-bottom: 0;
 }

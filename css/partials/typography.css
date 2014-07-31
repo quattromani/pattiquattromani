@@ -89,9 +89,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: Georgia, Times, "Times New Roman", serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: inherit;
   font-weight: 700;
   color: #ea3629;
   text-decoration: none;
@@ -114,7 +112,7 @@ h1,
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 @media (max-width: 62em) {
   h1,
@@ -136,7 +134,7 @@ h2,
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
-  font-weight: 200;
+  font-weight: 700;
 }
 @media (max-width: 62em) {
   h2,
@@ -340,24 +338,8 @@ samp {
 }
 
 /* ==========================
-    Logo
+    Helpers
    ========================== */
-.GLG {
-  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  letter-spacing: -1px;
-}
-
-.logo_slash,
-.division {
-  font-family: Georgia, Times, "Times New Roman", serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  font-weight: 200;
-}
-
-.division {
-  position: relative;
-  left: -.1em;
-  color: #57595a;
+.section {
+  border-bottom: 1px solid #454545;
 }
