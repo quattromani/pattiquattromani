@@ -9,4 +9,10 @@
       overflow: auto;
       @include padding(1em, 0);
       background-color: rgba(0,0,0,.1);
+      background-image: url(/images/header.jpg);
+      color: $color-white;
+
+      a {
+        color: $color-white;
+      }
     }

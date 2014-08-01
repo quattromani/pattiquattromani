@@ -6,37 +6,16 @@
    ========================================================================== */
 
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Lt';
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot');
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-45Lt.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222') format('svg');
+  font-family: 'Brandon Grotesque';
+  src: url('fonts/brandon_bld-webfont.eot');
+  src: url('fonts/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/brandon_bld-webfont.woff') format('woff'),
+       url('fonts/brandon_bld-webfont.ttf')  format('truetype'),
+       url('fonts/brandon_bld-webfont.svg#41e76bd6e414417d52adb646f262964a') format('svg');
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
 }
 
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot');
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro 75';
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot');
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-75Bd.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
 
 @font-face {
   font-family: $fontawesome;
@@ -45,17 +24,6 @@
        url('fonts/icons/fontawesome-webfont.svg#svgFontAwesome') format('svg'),
        url('fonts/icons/fontawesome-webfont.woff') format("woff"),
        url('fonts/icons/fontawesome-webfont.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: $GLGlyphs;
-  src: url('fonts/icons/GLGlyphs.eot?-a4mj0q');
-  src: url('fonts/icons/GLGlyphs.eot?#iefix-a4mj0q') format('embedded-opentype'),
-    url('fonts/icons/GLGlyphs.woff?-a4mj0q') format('woff'),
-    url('fonts/icons/GLGlyphs.ttf?-a4mj0q') format('truetype'),
-    url('fonts/icons/GLGlyphs.svg?-a4mj0q#GLGlyphs') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -134,13 +102,14 @@ $i: 1;
     font-family: nth($value, 4);
     @include font-size(nth($value, 2));
     font-weight: nth($value, 3);
+    text-transform: uppercase;
     @if $i <= 3 {
       @include bp(bp-medium) {
-        @include font-size(nth($value, 2) * .875)
+        @include font-size(nth($value, 2) * .75)
       }
 
       @include bp(bp-small) {
-        @include font-size(nth($value, 2) * .75)
+        @include font-size(nth($value, 2) * .55)
       }
     }
   }
@@ -187,8 +156,9 @@ p,
   }
 }
 
-strong {
-  font-family: $heading-font;
+.standout {
+  @include font-family($heading-font);
+  @include font-size(24);
 }
 
 .b {
@@ -269,6 +239,6 @@ samp {
    ========================== */
 
 .section {
-  border-bottom: 1px solid $text;
+  border-bottom: 1px solid $color-light-grey;
 }
 
