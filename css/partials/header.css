@@ -8,8 +8,14 @@ header {
   padding-bottom: 1em;
   padding-left: 0;
   background-color: rgba(0, 0, 0, 0.1);
-  background-image: url(/images/header.jpg);
+  background-image: url(/images/header.png);
   color: #fafeff;
+}
+header h1 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 header a {
   color: #fafeff;

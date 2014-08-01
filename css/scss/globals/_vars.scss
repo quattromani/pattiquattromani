@@ -46,8 +46,8 @@ $color-secondary-yellow: #fcef9d;
 // Typography
 $text: #454545;
 $text-color: $text;
-$link: $color-primary-red;
-$link-hover: $color-secondary-red;
+$link: rgba(71, 195, 201, 1);
+$link-hover: $text;
 $text-grey: $color-grey;
 $text-light-grey: $color-light-grey;
 $text-link: $link;

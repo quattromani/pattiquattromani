@@ -50,6 +50,10 @@
 
 .lede {
   @include font-size($lede-text);
+
+  @include bp(bp-small) {
+    @include font-size($lede-text * .875)
+  }
 }
 
 .body-text {

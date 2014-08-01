@@ -573,7 +573,7 @@ nav ul {
   background: #454545; }
 
 .color-link {
-  background: #ea3629; }
+  background: #47c3c9; }
 
 .color-error {
   background: #fad2c3; }
@@ -585,7 +585,7 @@ nav ul {
   background: #286c20; }
 
 .link {
-  color: #ea3629; }
+  color: #47c3c9; }
 
 .text-grey {
   color: #3e3f40; }
@@ -594,7 +594,7 @@ nav ul {
   color: #bbbebf; }
 
 .text-link {
-  color: #ea3629; }
+  color: #47c3c9; }
 
 .text-white {
   color: #fafeff; }
@@ -659,6 +659,10 @@ nav ul {
 .lede {
   font-size: 22px;
   font-size: 2.2rem; }
+  @media (max-width: 40em) {
+    .lede {
+      font-size: 19.25px;
+      font-size: 1.925rem; } }
 
 .body-text {
   font-size: 16px;
@@ -688,7 +692,7 @@ a {
   vertical-align: baseline;
   font-family: inherit;
   font-weight: 700;
-  color: #ea3629;
+  color: #47c3c9;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: .2s;
@@ -697,7 +701,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #fad2c3; }
+    color: #454545; }
 
 /* ==========================
 	  Headings
@@ -2186,7 +2190,7 @@ button,
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #ea3629;
+  color: #47c3c9;
   cursor: pointer; }
   .btn:hover,
   .button:hover,
@@ -2418,8 +2422,13 @@ header {
   padding-bottom: 1em;
   padding-left: 0;
   background-color: rgba(0, 0, 0, 0.1);
-  background-image: url(/images/header.jpg);
+  background-image: url(/images/header.png);
   color: #fafeff; }
+  header h1 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; }
   header a {
     color: #fafeff; }
 
@@ -2432,7 +2441,10 @@ footer {
   padding-right: 0;
   padding-bottom: 1em;
   padding-left: 0;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: rgba(58, 210, 168, 0.5);
+  font-family: "Brandon Grotesque", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal; }
 
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: timestamp()
@@ -3095,6 +3107,22 @@ hr {
   border: 0;
   border-top: 1px solid #bbbebf;
   border-bottom: 1px solid #fafeff; }
+  hr.divider {
+    width: 50%;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    border: none;
+    text-align: center; }
+    hr.divider:after {
+      content: '\f141';
+      font-family: "FontAwesome", Arial, Sans-Serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      font-size: 4rem;
+      color: #bbbebf; }
 
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: timestamp()
