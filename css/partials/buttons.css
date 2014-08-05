@@ -17,9 +17,9 @@ button,
   padding-right: 1em;
   padding-bottom: 0.375em;
   padding-left: 1em;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -54,7 +54,7 @@ button.btn-primary,
 button.button-primary,
 .cta.btn-primary,
 .cta.button-primary {
-  background: #ea3629;
+  background: #454545;
   color: #fafeff;
 }
 .btn.btn-primary:hover, .btn.button-primary:hover,
@@ -64,7 +64,7 @@ button.btn-primary:hover,
 button.button-primary:hover,
 .cta.btn-primary:hover,
 .cta.button-primary:hover {
-  background: #fad2c3;
+  background: #3e3f40;
 }
 .btn.btn-error,
 .button.btn-error,

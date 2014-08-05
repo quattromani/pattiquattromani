@@ -12,3 +12,6 @@ footer {
   font-style: normal;
   font-weight: normal;
 }
+footer a {
+  color: #454545;
+}

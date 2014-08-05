@@ -877,7 +877,7 @@ pre {
   margin-bottom: 0;
   margin-left: 0;
   background-color: whitesmoke;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto;
@@ -1868,7 +1868,7 @@ samp {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #bbbebf;
@@ -1877,7 +1877,7 @@ samp {
     margin-bottom: 0; }
 
 .border-radius {
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -2180,7 +2180,7 @@ button,
   padding-right: 1em;
   padding-bottom: 0.375em;
   padding-left: 1em;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 0;
@@ -2211,7 +2211,7 @@ button,
   button.button-primary,
   .cta.btn-primary,
   .cta.button-primary {
-    background: #ea3629;
+    background: #454545;
     color: #fafeff; }
     .btn.btn-primary:hover, .btn.button-primary:hover,
     .button.btn-primary:hover,
@@ -2220,7 +2220,7 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      background: #fad2c3; }
+      background: #3e3f40; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
@@ -2445,6 +2445,8 @@ footer {
   font-family: "Brandon Grotesque", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal; }
+  footer a {
+    color: #454545; }
 
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: timestamp()
@@ -2673,7 +2675,7 @@ label + .pill,
   max-width: 90%;
   margin: auto;
   margin-top: -16em;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: none repeat scroll 0 0 #fff;
@@ -2696,7 +2698,7 @@ label + .pill,
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0 0 0 0;
+  border-radius: 3px 3px 0 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2718,7 +2720,7 @@ label + .pill,
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 3px 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2778,7 +2780,7 @@ select {
   margin-left: 0;
   border: 1px solid #bbbebf;
   outline: none;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   font-weight: 300;
@@ -2998,7 +3000,7 @@ figcaption {
   font-weight: 700; }
 
 .image-rounded {
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -3094,7 +3096,7 @@ td {
   margin-left: 0;
   background: #fafeff;
   border: 1px solid #bbbebf;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto; }
@@ -3109,9 +3111,9 @@ hr {
   border-bottom: 1px solid #fafeff; }
   hr.divider {
     width: 50%;
-    margin-top: 1em;
+    margin-top: 0;
     margin-right: auto;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     margin-left: auto;
     border: none;
     text-align: center; }
@@ -3137,7 +3139,7 @@ hr {
   padding-bottom: 0.5em;
   padding-left: 1em;
   border: 0;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.675);
@@ -3166,14 +3168,14 @@ hr {
 .viewport {
   top: 0;
   right: 0;
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 0 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
 .loadtime {
   bottom: 0;
   left: 0;
-  border-radius: 0 0 0 0;
+  border-radius: 0 3px 0 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -3206,7 +3208,7 @@ hr {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
   .styleguide .colors.color-white, .styleguide .color-white.grid {
@@ -3215,7 +3217,7 @@ hr {
     .styleguide .colors, .styleguide .grid {
       margin-bottom: 1em; } }
 .styleguide .swatch {
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto; }
@@ -3238,7 +3240,7 @@ hr {
   color: #454545;
   text-align: center; }
 .styleguide .grid {
-  border-radius: 0;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #cee6f7; }

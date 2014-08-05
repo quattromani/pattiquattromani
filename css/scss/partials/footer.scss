@@ -10,4 +10,8 @@
       @include padding(1em, 0);
       background-color: rgba(58,210,168,.5);
       @include font-family($heading-font);
+
+      a {
+        color: $text;
+      }
     }

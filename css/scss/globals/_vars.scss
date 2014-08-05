@@ -20,7 +20,7 @@ $padding: 1em;
 $margin: 1em;
 
 //Border-Radius
-$border-radius: 0;
+$border-radius: 3px;
 
 // ---------------------------------------------------------------------- //
 
@@ -60,8 +60,8 @@ $text-info: $color-primary-blue;
 $site-background: $color-white;
 
 // Buttons
-$color-button-primary: $color-primary-red;
-$color-button-primary-hover: $color-secondary-red;
+$color-button-primary: $text;
+$color-button-primary-hover: $color-grey;
 
 
 // Forms
