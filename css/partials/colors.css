@@ -6,7 +6,7 @@
 }
 
 .color-black {
-  background: black;
+  background: #000;
 }
 
 .color-grey {
@@ -124,3 +124,5 @@
 .ie9 [class*="gradient"] {
   filter: none;
 }
+
+/*# sourceMappingURL=colors.css.map */

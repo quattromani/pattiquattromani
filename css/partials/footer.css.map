@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAOI,MAAO;EACL,QAAQ,EAAE,IAAI;ECqBlB,WAAW,EDpBU,GAAG;ECqBxB,aAAa,EDrBa,CAAC;ECsB3B,cAAc,EDtBO,GAAG;ECuBxB,YAAY,EDvBc,CAAC;EACvB,gBAAgB,EAAE,uBAAmB;ECkCzC,WAAW,EAAE,kDAAK;EAClB,UAAU,EAF8C,MAAM;EAG9D,WAAW,EAH8D,MAAM;;AD9B3E,QAAE;EACA,KAAK,EEgDU,OAAK",
+"sources": ["../scss/partials/footer.scss","../scss/globals/_mixins.scss","../scss/globals/_vars.scss"],
+"names": [],
+"file": "footer.css"
+}

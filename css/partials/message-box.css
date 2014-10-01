@@ -11,7 +11,7 @@
 .message-loading, .message-valid, .message-warning {
   display: flex;
   align-items: center;
-  background: whitesmoke;
+  background: #f5f5f5;
   font-weight: 700;
 }
 .message-loading:before, .message-valid:before, .message-warning:before {
@@ -29,7 +29,7 @@
 }
 .message-loading:before {
   background: #707274;
-  content: "\75";
+  content: "u";
 }
 
 .message-valid {
@@ -37,7 +37,7 @@
 }
 .message-valid:before {
   background: #45bb37;
-  content: "\43";
+  content: "C";
 }
 
 .message-warning {
@@ -45,14 +45,13 @@
 }
 .message-warning:before {
   background: #f38d86;
-  content: "\33";
+  content: "3";
 }
 
 @-webkit-keyframes rotation {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(359deg);
   }
@@ -74,3 +73,5 @@
   background: #7fd976;
   color: #286c20;
 }
+
+/*# sourceMappingURL=message-box.css.map */

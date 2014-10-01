@@ -109,7 +109,7 @@ button.btn-info:hover,
 .button.btn-black,
 button.btn-black,
 .cta.btn-black {
-  background: black;
+  background: #000;
   color: #fafeff;
 }
 .btn.btn-black:hover,
@@ -253,7 +253,6 @@ button.btn-sm,
   from {
     -webkit-transform: rotate(0deg);
   }
-
   to {
     -webkit-transform: rotate(359deg);
   }
@@ -285,3 +284,5 @@ button.btn-sm,
   overflow: visible;
   width: auto;
 }
+
+/*# sourceMappingURL=buttons.css.map */

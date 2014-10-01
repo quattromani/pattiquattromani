@@ -1034,7 +1034,7 @@
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #bbbebf;
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
   margin-bottom: 0;
@@ -1190,3 +1190,5 @@
     column-gap: 0;
   }
 }
+
+/*# sourceMappingURL=helpers.css.map */

@@ -46,35 +46,37 @@ progress {
   opacity: .5;
 }
 @-webkit-keyframes pulsate {
-  .progress-bar-element 0%  {
+  0% {
     opacity: .25;
   }
-  .progress-bar-element 50%  {
+  50% {
     opacity: .75;
   }
-  .progress-bar-element 100%  {
+  100% {
     opacity: .25;
   }
 }
 @-moz-keyframes pulsate {
-  .progress-bar-element 0%  {
+  0% {
     opacity: .25;
   }
-  .progress-bar-element 50%  {
+  50% {
     opacity: .75;
   }
-  .progress-bar-element 100%  {
+  100% {
     opacity: .25;
   }
 }
 @keyframes pulsate {
-  .progress-bar-element 0%  {
+  0% {
     opacity: .25;
   }
-  .progress-bar-element 50%  {
+  50% {
     opacity: .75;
   }
-  .progress-bar-element 100%  {
+  100% {
     opacity: .25;
   }
 }
+
+/*# sourceMappingURL=progress.css.map */
