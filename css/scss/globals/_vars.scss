@@ -11,7 +11,7 @@ $site-column-count: 12;
 $site-gutter-width: 2%;
 
 // Breakpoints
-$bp-big: 68.75em;
+$bp-big: $site-width;
 $bp-medium: 62em;
 $bp-small: 40em;
 
