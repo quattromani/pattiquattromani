@@ -1,0 +1,24 @@
+/* ==========================================================================
+    Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
+    ========================================================================== */
+.statebridge {
+  background: none;
+}
+.statebridge table {
+  font-family: arial;
+  text-transform: uppercase;
+  text-align: center;
+}
+.statebridge table .specialist {
+  font-weight: bold;
+  text-align: left;
+}
+.statebridge table .total {
+  font-weight: bold;
+}
+
+header.statebridge {
+  border-bottom: 1px solid #455560;
+}
+
+/*# sourceMappingURL=statebridge.css.map */

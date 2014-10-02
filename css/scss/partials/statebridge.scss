@@ -1,0 +1,32 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Pagination -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    .statebridge {
+      background: none;
+
+      table {
+        font-family: arial;
+        text-transform: uppercase;
+        text-align: center;
+
+        .specialist {
+          font-weight: bold;
+          text-align: left;
+        }
+
+        .total {
+          font-weight: bold;
+        }
+
+      }
+    }
+
+    header {
+      &.statebridge {
+        border-bottom: 1px solid #455560;
+      }
+    }
