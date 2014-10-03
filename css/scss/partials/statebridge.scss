@@ -14,6 +14,7 @@ $statebridge-grey: #455560;
         font-family: arial;
         text-transform: uppercase;
         text-align: center;
+        @include font-size(20);
 
         .specialist {
           text-align: left;

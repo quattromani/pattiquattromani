@@ -6,6 +6,8 @@
   font-family: arial;
   text-transform: uppercase;
   text-align: center;
+  font-size: 20px;
+  font-size: 2rem;
 }
 .statebridge table .specialist {
   text-align: left;
