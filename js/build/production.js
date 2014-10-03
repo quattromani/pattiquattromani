@@ -8,7 +8,7 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1XctAuEKcLieeQp5VAqO2bhjEg
 
     if (units != 0) {
       tr = $('<tr/>');
-      tr.append('<td class="specialist">' + specialist + '</td><td>' + units + '</td><td>' + value + '</td><td class="total">' + total + '</td>');
+      tr.append('<td class="specialist">' + specialist + '</td><td class="deals">' + units + '</td><td>' + value + '</td><td class="total">' + total + '</td>');
       $('table').append(tr);
     }
   }
