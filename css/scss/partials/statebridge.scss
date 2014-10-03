@@ -5,28 +5,121 @@
     Pagination -- Version: 1.9.0.0 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .statebridge {
-      background: none;
+$statebridge-blue: #005795;
+$statebridge-grey: #455560;
 
+    .statebridge {
       table {
+        border-collapse: collapse;
         font-family: arial;
         text-transform: uppercase;
         text-align: center;
 
         .specialist {
-          font-weight: bold;
           text-align: left;
         }
 
-        .total {
-          font-weight: bold;
+        th,
+        td {
+          position: relative;
+          @include padding(.5em);
+
+          &:nth-of-type(1) {
+            padding-left: 3.5em;
+          }
         }
 
-      }
-    }
+        td {
+          border-bottom: 2px solid $color-white;
+          background: lighten($statebridge-blue, 40%);
+          font-weight: bold;
+          color: $color-white;
+        }
 
-    header {
-      &.statebridge {
-        border-bottom: 1px solid #455560;
+        tr {
+          td {
+            &:nth-of-type(1) {
+              background: lighten($statebridge-blue, 30%);
+
+              &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                @include padding(.5em, 1em);
+                content: '+';
+                color: $color-white;
+              }
+            }
+            &:nth-of-type(4) {
+              background: lighten($statebridge-blue, 30%);
+            }
+          }
+          &:nth-of-type(2) {
+            td {
+              &:nth-of-type(1) {
+                &:before {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  @include padding(.5em, 1em);
+                  content: '1';
+                  background: $statebridge-blue;
+                  color: $color-white;
+                }
+              }
+            }
+          }
+          &:nth-of-type(3) {
+            td {
+              &:nth-of-type(1) {
+                &:before {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  @include padding(.5em, 1em);
+                  content: '2';
+                  background: lighten($statebridge-blue, 10%);
+                  color: $color-white;
+                }
+              }
+            }
+          }
+          &:nth-of-type(4) {
+            td {
+              &:nth-of-type(1) {
+                &:before {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  @include padding(.5em, 1em);
+                  content: '3';
+                  background: lighten($statebridge-blue, 20%);
+                  color: $color-white;
+                }
+              }
+            }
+          }
+
+          &:last-of-type {
+            td {
+              background: $statebridge-grey;
+              color: $color-white;
+            }
+          }
+        }
+
+
+      }
+
+      header {
+        &.statebridge {
+          border-bottom: 1px solid $color-light-grey;
+          background: $color-white;
+        }
+      }
+
+      footer {
+        border-top: 1px solid $color-light-grey;
+        background: $color-white;
       }
     }

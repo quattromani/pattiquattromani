@@ -13,7 +13,7 @@
 
 .container {
   display: block;
-  max-width: 960px;
+  max-width: 1080px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -39,6 +39,7 @@
 /* ==========================
     Grid
    ========================== */
+section,
 .row {
   clear: both;
   display: inline-block;
@@ -47,7 +48,9 @@
   width: 100%;
   margin-bottom: 1em;
 }
-.row:last-child, .row:only-child {
+section:last-child, section:only-child,
+.row:last-child,
+.row:only-child {
   margin-bottom: 0;
 }
 

@@ -68,7 +68,7 @@ textarea {
 
 .container {
   display: block;
-  max-width: 960px;
+  max-width: 1080px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -94,6 +94,7 @@ textarea {
 /* ==========================
     Grid
    ========================== */
+section,
 .row {
   clear: both;
   display: inline-block;
@@ -101,7 +102,9 @@ textarea {
   *display: inline;
   width: 100%;
   margin-bottom: 1em; }
-  .row:last-child, .row:only-child {
+  section:last-child, section:only-child,
+  .row:last-child,
+  .row:only-child {
     margin-bottom: 0; }
 
 .full {
@@ -3303,19 +3306,83 @@ hr {
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
     ========================================================================== */
-.statebridge {
-  background: none; }
-  .statebridge table {
-    font-family: arial;
-    text-transform: uppercase;
-    text-align: center; }
-    .statebridge table .specialist {
-      font-weight: bold;
-      text-align: left; }
-    .statebridge table .total {
-      font-weight: bold; }
-
-header.statebridge {
-  border-bottom: 1px solid #455560; }
+.statebridge table {
+  border-collapse: collapse;
+  font-family: arial;
+  text-transform: uppercase;
+  text-align: center; }
+  .statebridge table .specialist {
+    text-align: left; }
+  .statebridge table th,
+  .statebridge table td {
+    position: relative;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em; }
+    .statebridge table th:nth-of-type(1),
+    .statebridge table td:nth-of-type(1) {
+      padding-left: 3.5em; }
+  .statebridge table td {
+    border-bottom: 2px solid #fafeff;
+    background: #62beff;
+    font-weight: bold;
+    color: #fafeff; }
+  .statebridge table tr td:nth-of-type(1) {
+    background: #2fa8ff; }
+    .statebridge table tr td:nth-of-type(1):before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-top: 0.5em;
+      padding-right: 1em;
+      padding-bottom: 0.5em;
+      padding-left: 1em;
+      content: '+';
+      color: #fafeff; }
+  .statebridge table tr td:nth-of-type(4) {
+    background: #2fa8ff; }
+  .statebridge table tr:nth-of-type(2) td:nth-of-type(1):before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    content: '1';
+    background: #005795;
+    color: #fafeff; }
+  .statebridge table tr:nth-of-type(3) td:nth-of-type(1):before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    content: '2';
+    background: #0075c8;
+    color: #fafeff; }
+  .statebridge table tr:nth-of-type(4) td:nth-of-type(1):before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    content: '3';
+    background: #0093fb;
+    color: #fafeff; }
+  .statebridge table tr:last-of-type td {
+    background: #455560;
+    color: #fafeff; }
+.statebridge header.statebridge {
+  border-bottom: 1px solid #bbbebf;
+  background: #fafeff; }
+.statebridge footer {
+  border-top: 1px solid #bbbebf;
+  background: #fafeff; }
 
 /*# sourceMappingURL=main.css.map */
