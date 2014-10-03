@@ -25,11 +25,7 @@ select {
   margin-left: 0;
   border: 1px solid #bbbebf;
   outline: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   font-weight: 300;
   will-change: transition;
@@ -66,8 +62,6 @@ select[type="checkbox"] {
 input[type]:not([type=range]):focus,
 textarea:focus,
 select:focus {
-  -webkit-box-shadow: inset 0.3em 0 0 0 rgba(187, 190, 191, 0.75);
-  -moz-box-shadow: inset 0.3em 0 0 0 rgba(187, 190, 191, 0.75);
   box-shadow: inset 0.3em 0 0 0 rgba(187, 190, 191, 0.75);
 }
 
@@ -81,8 +75,6 @@ input[type="checkbox"], input[type="radio"] {
 }
 input[type="checkbox"]:focus, input[type="radio"]:focus {
   outline: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 input[type="range"] {
@@ -95,11 +87,7 @@ input[type="range"] {
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
   border-radius: 100%;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   background-color: #3e3f40;
   width: 1em;
@@ -183,11 +171,7 @@ input.radio:empty ~ label:after {
   width: 2.5em;
   height: 1.5em;
   background: #ea3629;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   will-change: transition;
   transition: all 100ms ease-in;
@@ -207,11 +191,7 @@ input.radio:empty ~ label:after {
   top: .375em;
   margin-left: .375em;
   background: #fafeff;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
 

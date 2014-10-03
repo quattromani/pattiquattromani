@@ -897,6 +897,7 @@
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
 }
 
 .width-5 {
@@ -1027,11 +1028,7 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #bbbebf;
   background: #f5f5f5;
@@ -1041,11 +1038,7 @@
 }
 
 .border-radius {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
 

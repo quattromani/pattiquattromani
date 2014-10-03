@@ -9,11 +9,7 @@
   margin-left: 0;
   background: #fafeff;
   border: 1px solid #bbbebf;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto;
 }
