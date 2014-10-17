@@ -5,8 +5,8 @@
     Pagination -- Version: 1.9.0.0 - Compiled: #{timestamp()}
     ========================================================================== */
 
-$statebridge-blue: #005795;
-$statebridge-grey: #455560;
+    $statebridge-blue: #005795;
+    $statebridge-grey: #455560;
 
     .statebridge {
       table {
@@ -119,6 +119,12 @@ $statebridge-grey: #455560;
 
       footer {
         border-top: 1px solid $color-light-grey;
-        background: $color-white;
+        background-color: #222;
+        color: #fff;
+
+        p.lede {
+          font-family: $brandon;
+          color: #919191;
+        }
       }
     }

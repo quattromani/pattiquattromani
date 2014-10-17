@@ -3385,6 +3385,10 @@ hr {
   background: #fafeff; }
 .statebridge footer {
   border-top: 1px solid #bbbebf;
-  background: #fafeff; }
+  background-color: #222;
+  color: #fff; }
+  .statebridge footer p.lede {
+    font-family: "Brandon Grotesque", sans-serif;
+    color: #919191; }
 
 /*# sourceMappingURL=main.css.map */
