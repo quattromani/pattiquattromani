@@ -3307,7 +3307,6 @@ hr {
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
     ========================================================================== */
 .statebridge table {
-  border-collapse: collapse;
   font-family: arial;
   text-transform: uppercase;
   text-align: center;
@@ -3326,7 +3325,6 @@ hr {
     .statebridge table td:nth-of-type(1) {
       padding-left: 3.5em; }
   .statebridge table td {
-    border-bottom: 2px solid #fafeff;
     background: #62beff;
     font-weight: bold;
     color: #fafeff; }

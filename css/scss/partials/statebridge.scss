@@ -10,7 +10,6 @@
 
     .statebridge {
       table {
-        border-collapse: collapse;
         font-family: arial;
         text-transform: uppercase;
         text-align: center;
@@ -31,7 +30,6 @@
         }
 
         td {
-          border-bottom: 2px solid $color-white;
           background: lighten($statebridge-blue, 40%);
           font-weight: bold;
           color: $color-white;
