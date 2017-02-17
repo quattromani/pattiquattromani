@@ -93,7 +93,7 @@ grunt.initConfig({
 
 grunt.loadNpmTasks('grunt-contrib');
 
-grunt.registerTask('build', ['concat', 'uglify', 'sass', 'postcss', 'imagemin', 'watch']);
+grunt.registerTask('build', ['concat', 'uglify', 'sass', 'postcss', 'watch']);
 
 grunt.registerTask('prod', ['concat', 'uglify', 'sass', 'postcss', 'criticalcss', 'imagemin', 'watch']);
 
