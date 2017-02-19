@@ -3352,8 +3352,6 @@ hr {
     padding-left: 0;
     width: 450px;
     max-width: 100%; }
-  .chl .chl-logo .container {
-    padding: 2rem 1rem; }
   .chl progress {
     position: relative;
     width: 100%;
@@ -3379,7 +3377,7 @@ hr {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: auto; }
     .chl .card header {
-      padding: 1rem 2rem;
+      padding: 2rem;
       background-color: #fafeff;
       color: white;
       font-family: "Gotham-Book", sans-serif;

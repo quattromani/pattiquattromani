@@ -21,10 +21,6 @@ $chl-light-grey: #f1f0f0;
     max-width: 100%;
   }
 
-  .chl-logo .container {
-    padding: 2rem 1rem;
-  }
-
   progress {
     position: relative;
     width: 100%;
@@ -62,7 +58,7 @@ $chl-light-grey: #f1f0f0;
     overflow: auto;
 
     header {
-      padding: 1rem 2rem;
+      padding: 2rem;
       background-color: $color-white;
       color: white;
       font-family: $gotham;
