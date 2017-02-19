@@ -5,7 +5,7 @@
     Footer -- Version: 0.2.1
     ========================================================================== */
 
-    footer {
+    footer[role=contentinfo] {
       overflow: auto;
       @include padding(1em, 0);
       background-color: rgba(58,210,168,.5);

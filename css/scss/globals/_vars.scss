@@ -80,11 +80,13 @@ $base-line-height: 1.443;
 // @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 // $google-fonts-url: 'Yanone Kaffeesatz', sans-serif;
 
-$base-font: Georgia, Times, "Times New Roman", serif;
+$base-font: 'TiemposText-Regular', serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-$base-font-alt: $arial;
+$base-font-alt: 'Gotham-Book', sans-serif;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $brandon: 'Brandon Grotesque', sans-serif;
+$gotham: 'Gotham-Book', sans-serif;
+$tiempos-text: 'TiemposText-Regular', serif;
 $heading-font: $brandon;
 $heading-font-alt: $heading-font;
 $fontawesome: 'FontAwesome';
