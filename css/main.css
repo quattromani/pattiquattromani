@@ -3340,8 +3340,16 @@ hr {
   font-family: "Gotham-Book", sans-serif;
   text-align: center; }
   .chl .content {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
     overflow: initial; }
   .chl .container {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
     width: 450px;
     max-width: 100%; }
   .chl .chl-logo .container {
@@ -3349,6 +3357,7 @@ hr {
   .chl progress {
     position: relative;
     width: 100%;
+    margin-bottom: 1rem;
     vertical-align: middle; }
     .chl progress[value], .chl progress[value]::-webkit-progress-bar {
       background-color: #f1f0f0; }
@@ -3365,7 +3374,7 @@ hr {
   .chl .card {
     width: 450px;
     max-width: 100%;
-    margin: 2rem auto;
+    margin: 0 auto;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: auto; }
@@ -3378,7 +3387,8 @@ hr {
     .chl .card .card-body {
       padding: 2rem; }
       .chl .card .card-body h3 {
-        font-family: "Gotham-Book", sans-serif; }
+        font-family: "Gotham-Book", sans-serif;
+        font-size: 24px; }
       .chl .card .card-body .goal {
         color: #57585a; }
     .chl .card .branch {

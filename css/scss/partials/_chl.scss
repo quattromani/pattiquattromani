@@ -11,10 +11,12 @@ $chl-light-grey: #f1f0f0;
   text-align: center;
 
   .content {
+    @include padding;
     overflow: initial;
   }
 
   .container {
+    @include padding;
     width: 450px;
     max-width: 100%;
   }
@@ -26,6 +28,7 @@ $chl-light-grey: #f1f0f0;
   progress {
     position: relative;
     width: 100%;
+    margin-bottom: 1rem;
     vertical-align: middle;
 
     &[value],
@@ -52,7 +55,7 @@ $chl-light-grey: #f1f0f0;
   .card {
     width: 450px;
     max-width: 100%;
-    margin: 2rem auto;
+    margin: 0 auto;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16),
     0 3px 6px rgba(0,0,0,0.23);
@@ -71,6 +74,7 @@ $chl-light-grey: #f1f0f0;
 
       h3 {
         font-family: $gotham;
+        font-size: 24px;
       }
 
       .goal {
