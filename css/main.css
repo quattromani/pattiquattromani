@@ -3367,6 +3367,9 @@ hr {
       background: #f1f0f0;
       background: linear-gradient(to right, #f1f0f0 0%, #654764 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f0f0', endColorstr='#654764',GradientType=1 ); }
+  .chl .monthly-current,
+  .chl .yearly-current {
+    color: #3a7da9; }
   .chl .target {
     text-align: center; }
   .chl .card {

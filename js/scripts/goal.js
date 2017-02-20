@@ -6,17 +6,38 @@
 
  $.getJSON(url, function(data) {
 
-  var entry = data.feed.entry;
+  var entry = data.feed.entry[0];
 
-  var year = entry[0]['gsx$year']['$t'];
+  var branchName = entry['gsx$branchname']['$t'];
+  var branchID = entry['gsx$branchid']['$t'];
+  $('.branch h3').append(branchName + ' - ' + branchID);
+
+  var year = entry['gsx$year']['$t'];
   $('.year').append(year);
 
-  var yearlyGoal =entry[0]['gsx$goal']['$t'];
-  $('.yearly-goal').append(monthlyGoal);
+  // Months
+  var monthlyGoal = entry['gsx$feb2017goal']['$t'];
+  var monthlyGoalConverted = numeral(entry['gsx$feb2017goal']['$t']).format('$0.0a');
+  $('.monthly-goal').append(monthlyGoalConverted);
 
-  var month = entry[0]['gsx$month']['$t'];
+  var monthlyCurrent = entry['gsx$feb2017actual']['$t'];
+  var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
+  $('.month-goal progress').attr('value', monthlyCurrent);
+  $('.month-goal progress').attr('max', monthlyGoal);
+  $('.month-goal .monthly-current').append(monthlyCurrentConverted);
+
+  // Years
+  var yearlyGoal = entry['gsx$branchgoal']['$t'];
+  var yearlyGoalConverted = numeral(entry['gsx$branchgoal']['$t']).format('$0.0a');
+  $('.yearly-goal').append(yearlyGoalConverted);
+
+  var yearlyCurrent = entry['gsx$branchactual']['$t'];
+  var yearlyCurrentConverted = numeral(yearlyCurrent).format('$0.0a');
+  $('.year-goal progress').attr('value', yearlyCurrent);
+  $('.year-goal progress').attr('max', yearlyGoal);
+  $('.year-goal .yearly-current').append(yearlyCurrentConverted);
+
+  var month = entry['gsx$month']['$t'];
   $('.month').append(month);
 
-  var monthlyGoal =entry[0]['gsx$goal']['$t'];
-  $('.month-goal').append(monthlyGoal);
 });

@@ -44,6 +44,11 @@ $chl-light-grey: #f1f0f0;
     }
   }
 
+  .monthly-current,
+  .yearly-current {
+    color: $chl-blue;
+  }
+
   .target {
     text-align: center;
   }
