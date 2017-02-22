@@ -42,11 +42,12 @@ $chl-light-grey: #f1f0f0;
       height: 40px;
       background: #f1f0f0;
       background: linear-gradient(to right, $chl-light-purple 0%, $chl-purple 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$chl-light-purple', endColorstr='$chl-purple',GradientType=1 );
     }
 
     &[aria-valuenow]:before  {
-      background: $chl-purple;
+      height: 40px;
+      background: linear-gradient(to right, $chl-light-purple 0%, $chl-purple 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$chl-light-purple', endColorstr='$chl-purple',GradientType=1 );
     }
   }
 
