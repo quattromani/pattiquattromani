@@ -3365,8 +3365,8 @@ hr {
       appearance: none;
       height: 40px;
       background: #f1f0f0;
-      background: linear-gradient(to right, #f1f0f0 0%, #654764 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f0f0', endColorstr='#654764',GradientType=1 ); }
+      background: linear-gradient(to right, #926790 0%, #654764 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$chl-light-purple', endColorstr='$chl-purple',GradientType=1 ); }
   .chl .monthly-current,
   .chl .yearly-current {
     color: #3a7da9; }

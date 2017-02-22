@@ -1,4 +1,5 @@
 $chl-purple: #654764;
+$chl-light-purple: lighten($chl-purple, 15%);
 $chl-blue: #3a7da9;
 $chl-text: #58595b;
 $chl-grey: #929292;
@@ -39,8 +40,8 @@ $chl-light-grey: #f1f0f0;
       appearance: none;
       height: 40px;
       background: #f1f0f0;
-      background: linear-gradient(to right, #f1f0f0 0%,#654764 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f0f0', endColorstr='#654764',GradientType=1 );
+      background: linear-gradient(to right, $chl-light-purple 0%, $chl-purple 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$chl-light-purple', endColorstr='$chl-purple',GradientType=1 );
     }
   }
 
