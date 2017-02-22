@@ -3356,6 +3356,7 @@ hr {
     position: relative;
     width: 100%;
     margin-bottom: 1rem;
+    color: #654764;
     vertical-align: middle; }
     .chl progress[value], .chl progress[value]::-webkit-progress-bar {
       background-color: #f1f0f0; }
@@ -3367,6 +3368,8 @@ hr {
       background: #f1f0f0;
       background: linear-gradient(to right, #926790 0%, #654764 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$chl-light-purple', endColorstr='$chl-purple',GradientType=1 ); }
+    .chl progress[aria-valuenow]:before {
+      background: #654764; }
   .chl .monthly-current,
   .chl .yearly-current {
     color: #3a7da9; }
