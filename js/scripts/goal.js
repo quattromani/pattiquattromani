@@ -22,8 +22,8 @@
 
   var monthlyCurrent = entry['gsx$feb2017actual']['$t'];
   var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
-  $('.month-goal progress').attr('value', monthlyCurrent);
-  $('.month-goal progress').attr('max', monthlyGoal);
+  // $('.month-goal progress').attr('value', monthlyCurrent);
+  // $('.month-goal progress').attr('max', monthlyGoal);
   $('.month-goal .monthly-current').append(monthlyCurrentConverted);
 
   // Years
@@ -33,8 +33,8 @@
 
   var yearlyCurrent = entry['gsx$branchactual']['$t'];
   var yearlyCurrentConverted = numeral(yearlyCurrent).format('$0.0a');
-  $('.year-goal progress').attr('value', yearlyCurrent);
-  $('.year-goal progress').attr('max', yearlyGoal);
+  // $('.year-goal progress').attr('value', yearlyCurrent);
+  // $('.year-goal progress').attr('max', yearlyGoal);
   $('.year-goal .yearly-current').append(yearlyCurrentConverted);
 
   var month = entry['gsx$month']['$t'];
