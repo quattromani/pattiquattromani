@@ -37,7 +37,7 @@
   $('.year-goal progress').attr('max', yearlyGoal);
   $('.year-goal .yearly-current').append(yearlyCurrentConverted);
 
-  var month = entry['gsx$month']['$t'];
+  var month = data.feed['title']['$t'];
   $('.month').append(month);
 
 });
