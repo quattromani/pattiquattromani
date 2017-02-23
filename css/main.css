@@ -3407,3 +3407,6 @@ hr {
       .chl .card footer address {
         color: white;
         font-family: 'TiemposText-Regular'; }
+  .chl .date-holder {
+    margin-top: 1rem;
+    text-align: right; }

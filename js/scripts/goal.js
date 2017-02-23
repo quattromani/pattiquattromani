@@ -27,8 +27,6 @@
   var monthlyPerc = ((monthlyCurrent/monthlyGoal) * 100).toFixed(2) + '%';
   $('.month-goal .progress-bar').css('width', monthlyPerc);
 
-
-
   // Years
   var yearlyGoal = entry['gsx$branchgoal']['$t'];
   var yearlyGoalConverted = numeral(entry['gsx$branchgoal']['$t']).format('$0.0a');
@@ -46,28 +44,12 @@
 
 });
 
- $(function() {
-  // on page load...
-  moveProgressBar();
-    // on browser resize...
-    $(window).resize(function() {
-      moveProgressBar();
-    });
+// Date
+var dateObj = new Date();
+var month = dateObj.getUTCMonth() + 1; //months from 1-12
+var day = dateObj.getUTCDate();
+var year = dateObj.getUTCFullYear();
 
-    // SIGNATURE PROGRESS
-    function moveProgressBar() {
-      console.log("moveProgressBar");
-      var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
-      var getProgressWrapWidth = $('.progress-wrap').width();
-      var progressTotal = getPercent * getProgressWrapWidth;
-      var animationLength = 2500;
+date = month + "/" + day + "/" + year;
 
-        // on page load, animate percentage bar to data percentage length
-        // .stop() used to prevent animation queueing
-        $('.progress-bar').stop().animate({
-          left: progressTotal
-        }, animationLength);
-      }
-
-    });
-
+$('.date').append(date);
