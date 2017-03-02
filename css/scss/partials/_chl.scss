@@ -89,7 +89,7 @@ $chl-light-grey: #f1f0f0;
 
     footer {
       padding: 2rem;
-      background-color: #929292;
+      background-color: $color-white;
       text-align: center;
 
       h3 {
@@ -100,14 +100,17 @@ $chl-light-grey: #f1f0f0;
       }
 
       address {
-        color: white;
-        font-family: 'TiemposText-Regular';
+        @include font-size(12);
+        color: #929292;
       }
     }
   }
 
   .date-holder {
+    @include padding(10px 0);
     margin-top: 1rem;
-    text-align: right;
+    background-color: $chl-light-grey;
+    color: $chl-text;
+    text-align: center;
   }
 }

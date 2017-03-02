@@ -9,14 +9,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
   display: block; }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   border: 0;
   background: transparent;
   list-style: none outside none;
@@ -58,23 +52,14 @@ textarea {
 .content {
   position: relative;
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
+  padding: 1em 0;
   z-index: 0; }
 
 .container {
   display: block;
   max-width: 1080px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  padding-top: 0;
-  padding-right: 1em;
-  padding-bottom: 0;
-  padding-left: 1em;
+  margin: 0 auto;
+  padding: 0 1em;
   overflow: visible; }
 
 /* ==========================
@@ -683,14 +668,8 @@ nav ul {
 	  Links
    ========================== */
 a {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   background: transparent;
   vertical-align: baseline;
   font-family: inherit;
@@ -824,10 +803,7 @@ p,
   word-wrap: break-word; }
   p:only-child,
   .p:only-child {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0; }
+    margin: 0; }
 
 .standout {
   font-family: "Brandon Grotesque", sans-serif, Arial, Sans-Serif;
@@ -844,10 +820,7 @@ p,
 
 blockquote {
   width: 75%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   border-left: 3px solid #3e3f40;
   color: #3e3f40;
   font-style: italic;
@@ -876,10 +849,7 @@ mark {
 	  Pre
    ========================== */
 pre {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 1em 0 0;
   background-color: #f5f5f5;
   border-radius: 3px;
   background-clip: padding-box;
@@ -1848,10 +1818,7 @@ samp {
   margin-right: 1em; }
 
 .image-center {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   text-align: center; }
 
 .image-right {
@@ -1859,14 +1826,8 @@ samp {
   margin-left: 1em; }
 
 .box {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 0 0 1em 0;
+  padding: 1em;
   border-radius: 3px;
   background-clip: padding-box;
   border: 1px solid #bbbebf;
@@ -1879,17 +1840,11 @@ samp {
   background-clip: padding-box; }
 
 .bordered-solid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px solid #3e3f40; }
 
 .bordered-dotted {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px dotted #3e3f40; }
 
 .bordered-left,
@@ -1956,10 +1911,7 @@ samp {
     display: block; }
   .bordered-left,
   .bordered-right {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0; }
   .column-count-2,
   .column-count-3,
@@ -1988,14 +1940,8 @@ samp {
     Lists -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 1.5em;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0 0 0 1.5em;
+  padding: 0; }
   ol ol {
     margin-bottom: 0; }
   ol li {
@@ -2003,19 +1949,10 @@ ol {
     list-style-position: outside; }
 
 ul {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0;
+  padding: 0; }
   ul ul {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0; }
+    margin: 0; }
 
 .indented ~ ul {
   margin-bottom: 0; }
@@ -2043,38 +1980,23 @@ ul {
   *vertical-align: auto; }
 
 .horizontal.slashes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  padding: 0; }
   .horizontal.slashes li:after {
     content: '/';
-    padding-top: 0;
-    padding-right: 0.5em;
-    padding-bottom: 0;
-    padding-left: 0.5em; }
+    padding: 0 0.5em; }
   .horizontal.slashes li.js-last:after {
     content: ''; }
 
 .horizontal.pipes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  padding: 0; }
   .horizontal.pipes li:after {
     content: '|';
-    padding-top: 0;
-    padding-right: 0.25em;
-    padding-bottom: 0;
-    padding-left: 0.5em; }
+    padding: 0 0.25em 0 0.5em; }
   .horizontal.pipes li.js-last:after {
     content: ''; }
 
 .vertical > li {
-  padding-top: 0.5em;
-  padding-right: 0;
-  padding-bottom: 0.5em;
-  padding-left: 0; }
+  padding: 0.5em 0; }
 
 .vertical.lined > li {
   overflow: auto;
@@ -2095,26 +2017,17 @@ dd {
     Summary -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 details {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   background: #c8cbcb; }
   details p {
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em; }
+    padding: 1em; }
   details summary {
     display: inline-block;
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;
     width: 100%;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding: 0.5em;
     background: #3e3f40;
     outline: none;
     color: #fafeff; }
@@ -2144,14 +2057,8 @@ button,
   *display: inline;
   *vertical-align: auto;
   min-width: 3em;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0.375em;
-  padding-right: 1em;
-  padding-bottom: 0.375em;
-  padding-left: 1em;
+  margin: 0;
+  padding: 0.375em 1em;
   border-radius: 3px;
   background-clip: padding-box;
   border: 0;
@@ -2282,27 +2189,18 @@ button,
   .button.btn-xl,
   button.btn-xl,
   .cta.btn-xl {
-    padding-top: 0.75em;
-    padding-right: 2em;
-    padding-bottom: 0.75em;
-    padding-left: 2em; }
+    padding: 0.75em 2em; }
   .btn.btn-lg,
   .button.btn-lg,
   button.btn-lg,
   .cta.btn-lg {
-    padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1.5em; }
+    padding: 0.5em 1.5em; }
   .btn.btn-sm,
   .button.btn-sm,
   button.btn-sm,
   .cta.btn-sm {
     min-width: 0;
-    padding-top: 0.1666666667em;
-    padding-right: 0.6666666667em;
-    padding-bottom: 0.1666666667em;
-    padding-left: 0.6666666667em; }
+    padding: 0.1666666667em 0.6666666667em; }
   @media (max-width: 40em) {
     .btn.mobile-full,
     .button.mobile-full,
@@ -2364,16 +2262,10 @@ button,
 /* Firefox */
 @-moz-document url-prefix() {
   button::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0 none; }
   input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0 none; } }
 
 .ie button {
@@ -2385,18 +2277,12 @@ button,
     ========================================================================== */
 header[role=banner] {
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
+  padding: 1em 0;
   background-color: rgba(0, 0, 0, 0.1);
   background-image: url(/images/header.jpg);
   color: #fafeff; }
   header[role=banner] h1 {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0; }
+    margin: 0; }
   header[role=banner] a {
     color: #fafeff; }
 
@@ -2405,10 +2291,7 @@ header[role=banner] {
     ========================================================================== */
 footer[role=contentinfo] {
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
+  padding: 1em 0;
   background-color: rgba(58, 210, 168, 0.5);
   font-family: "Brandon Grotesque", sans-serif, Arial, Sans-Serif;
   font-style: normal;
@@ -2488,14 +2371,8 @@ progress {
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 .pagination ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0;
+  padding: 0; }
 
 .pagination li {
   display: inline;
@@ -2526,10 +2403,7 @@ label + .pill,
 .pill-black,
 .pill-white,
 .pill-red {
-  padding-top: 0.125em;
-  padding-right: 0.75em;
-  padding-bottom: 0.125em;
-  padding-left: 0.75em;
+  padding: 0.125em 0.75em;
   border-radius: 50px;
   background-clip: padding-box;
   background: #3e3f40;
@@ -2656,10 +2530,7 @@ label + .pill,
   cursor: pointer; }
 
 .modal .modal-header {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 3px 3px 0 0;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2669,20 +2540,14 @@ label + .pill,
 .modal .modal-body {
   overflow: auto;
   max-height: 25em;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em; }
+  padding: 1em; }
   @media (max-width: 40em) {
     .modal .modal-body {
       max-height: 15.625em; } }
 
 .modal .modal-footer {
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 0 0 3px 3px;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2695,23 +2560,14 @@ label + .pill,
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  margin-top: -1em;
-  margin-right: -1em;
-  margin-bottom: -1em;
-  margin-left: -1em;
+  margin: -1em;
   overflow: hidden;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   position: absolute; }
   .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
     clip: auto;
     height: auto;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin: 0;
     overflow: visible;
     position: static;
     width: auto; }
@@ -2732,14 +2588,8 @@ textarea,
 select {
   width: 100%;
   max-width: 100%;
-  padding-top: 0.35em;
-  padding-right: 0.5em;
-  padding-bottom: 0.35em;
-  padding-left: 0.5em;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  padding: 0.35em 0.5em;
+  margin: 0;
   border: 1px solid #bbbebf;
   outline: none;
   border-radius: 3px;
@@ -2768,10 +2618,7 @@ select {
   select[type="radio"],
   select[type="checkbox"] {
     float: left;
-    margin-top: 0.25em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
-    margin-left: 0.1em; }
+    margin: 0.25em 0.5em 1em 0.1em; }
   input[type]:not([type=range]):focus,
   textarea:focus,
   select:focus {
@@ -2779,10 +2626,7 @@ select {
 
 input[type="checkbox"], input[type="radio"] {
   width: auto;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   border: 0; }
   input[type="checkbox"]:focus, input[type="radio"]:focus {
     outline: none;
@@ -2902,30 +2746,18 @@ input.switch:checked ~ label:after {
   border: 3px dashed #bbbebf;
   width: 300px;
   min-height: 300px;
-  margin-top: 2em;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-left: auto; }
+  margin: 2em auto; }
   #holder.hover {
     border: 10px dashed #0c0; }
   #holder img {
     display: block;
-    margin-top: 1em;
-    margin-right: auto;
-    margin-bottom: 1em;
-    margin-left: auto; }
+    margin: 1em auto; }
   #holder p {
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em; }
+    margin: 1em; }
 
 .fail {
   background: #ea3629;
-  padding-top: 0.2em;
-  padding-right: 0.2em;
-  padding-bottom: 0.2em;
-  padding-left: 0.2em;
+  padding: 0.2em;
   color: #fafeff; }
 
 /* ==========================================================================
@@ -2999,10 +2831,7 @@ video {
   top: 0;
   left: 0;
   max-width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0; }
+  margin: 0; }
   @media (max-width: 40em) {
     video video {
       height: auto; } }
@@ -3033,20 +2862,14 @@ tr:nth-of-type(even) {
 
 th,
 td {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em; }
+  padding: 1em; }
 
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 .box-column {
   padding: 1em;
-  margin-top: 0.5em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 0.5em 0 1em;
   background: #fafeff;
   border: 1px solid #bbbebf;
   border-radius: 3px;
@@ -3054,19 +2877,13 @@ td {
   overflow: auto; }
 
 hr {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid #bbbebf;
   border-bottom: 1px solid #fafeff; }
   hr.divider {
     width: 50%;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+    margin: 0 auto;
     border: none;
     text-align: center; }
     hr.divider:after {
@@ -3086,10 +2903,7 @@ hr {
   bottom: 0;
   right: 0;
   width: auto;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
+  padding: 0.5em 1em;
   border: 0;
   border-radius: 3px;
   background-clip: padding-box;
@@ -3107,10 +2921,7 @@ hr {
    ========================================================================== */
 .viewport, .loadtime {
   position: fixed;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
+  padding: 0.5em 1em;
   background: rgba(0, 0, 0, 0.675);
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   color: #0f0; }
@@ -3129,10 +2940,7 @@ hr {
 
 .internal {
   margin-bottom: 1em;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   color: #0099ed;
   text-align: center; }
 
@@ -3154,10 +2962,7 @@ hr {
     border-bottom: none; }
 
 .styleguide .colors, .styleguide .grid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 3px;
   background-clip: padding-box; }
   .styleguide .colors.color-white, .styleguide .color-white.grid {
@@ -3172,19 +2977,13 @@ hr {
   overflow: auto; }
 
 .styleguide .swatch-color {
-  padding-top: 5em;
-  padding-right: 1em;
-  padding-bottom: 5em;
-  padding-left: 1em; }
+  padding: 5em 1em; }
   .styleguide .swatch-color.color-white {
     border: 1px solid #bbbebf;
     border-bottom: none; }
 
 .styleguide .swatch-info {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px solid #bbbebf;
   border-top: none;
   background: #fafeff;
@@ -3260,10 +3059,7 @@ hr {
   .statebridge table th,
   .statebridge table td {
     position: relative;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em; }
+    padding: 0.5em; }
     .statebridge table th:nth-of-type(1),
     .statebridge table td:nth-of-type(1) {
       padding-left: 3.5em; }
@@ -3277,10 +3073,7 @@ hr {
       position: absolute;
       top: 0;
       left: 0;
-      padding-top: 0.5em;
-      padding-right: 1em;
-      padding-bottom: 0.5em;
-      padding-left: 1em;
+      padding: 0.5em 1em;
       content: '+';
       color: #fafeff; }
   .statebridge table tr td:nth-of-type(4) {
@@ -3289,10 +3082,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 0.5em;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
+    padding: 0.5em 1em;
     content: '1';
     background: #005795;
     color: #fafeff; }
@@ -3300,10 +3090,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 0.5em;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
+    padding: 0.5em 1em;
     content: '2';
     background: #0075c8;
     color: #fafeff; }
@@ -3311,10 +3098,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 0.5em;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
+    padding: 0.5em 1em;
     content: '3';
     background: #0093fb;
     color: #fafeff; }
@@ -3340,16 +3124,10 @@ hr {
   font-family: "Gotham-Book", sans-serif;
   text-align: center; }
   .chl .content {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     overflow: initial; }
   .chl .container {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     width: 450px;
     max-width: 100%; }
   .chl .progress {
@@ -3397,7 +3175,7 @@ hr {
         font-size: 20px; }
     .chl .card footer {
       padding: 2rem;
-      background-color: #929292;
+      background-color: #fafeff;
       text-align: center; }
       .chl .card footer h3 {
         color: white;
@@ -3405,8 +3183,12 @@ hr {
         font-size: 20px;
         text-align: center; }
       .chl .card footer address {
-        color: white;
-        font-family: 'TiemposText-Regular'; }
+        font-size: 12px;
+        font-size: 1.2rem;
+        color: #929292; }
   .chl .date-holder {
+    padding: 10px 0;
     margin-top: 1rem;
-    text-align: right; }
+    background-color: #f1f0f0;
+    color: #58595b;
+    text-align: center; }
