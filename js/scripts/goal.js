@@ -16,11 +16,11 @@
   $('.year').append(year);
 
   // Months
-  var monthlyGoal = entry['gsx$feb2017goal']['$t'];
-  var monthlyGoalConverted = numeral(entry['gsx$feb2017goal']['$t']).format('$0.0a');
+  var monthlyGoal = entry['gsx$march2017goal']['$t'];
+  var monthlyGoalConverted = numeral(entry['gsx$march2017goal']['$t']).format('$0.0a');
   $('.monthly-goal').append(monthlyGoalConverted);
 
-  var monthlyCurrent = entry['gsx$feb2017actual']['$t'];
+  var monthlyCurrent = entry['gsx$march2017actual']['$t'];
   var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
   $('.month-goal .monthly-current').append(monthlyCurrentConverted);
 
