@@ -10,7 +10,8 @@
 
   var branchName = entry['gsx$branchname']['$t'];
   var branchID = entry['gsx$branchid']['$t'];
-  $('.branch h3').append(branchName + ' - ' + branchID);
+  $('.branch h3').append(branchName);
+  // $('.branch h3').append(branchName + ' - ' + branchID);
 
   var year = entry['gsx$year']['$t'];
   $('.year').append(year);
