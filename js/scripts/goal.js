@@ -54,3 +54,25 @@ var year = dateObj.getUTCFullYear();
 date = month + "/" + day + "/" + year;
 
 $('.date').append(date);
+
+// Day-Year Tracker
+function myFunction() {
+    var today = new Date();
+    var month = today.getMonth();
+    var totalDays = (daysInMonth(month + 1, today.getFullYear()));
+    var pastDays = (totalDays - (daysLeftInMonth(new Date())));
+    var goalDay = (((pastDays / totalDays) * 100) + '%');
+    console.log(goalDay + '%');
+    $('.day-tracker').css({'left' : goalDay,'visibility': 'visible'});
+}
+
+function daysInMonth(month,year) {
+  return new Date(year, month, 0).getDate();
+}
+
+function daysLeftInMonth(date) {
+  return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate() - date.getDate();
+}
+
+myFunction();
+
