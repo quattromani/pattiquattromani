@@ -16,6 +16,9 @@
   var year = entry['gsx$year']['$t'];
   $('.year').append(year);
 
+  var units = entry['gsx$march2017units']['$t'];
+  $('.units').append(units);
+
   // Months
   var monthlyGoal = entry['gsx$march2017goal']['$t'];
   var monthlyGoalConverted = numeral(entry['gsx$march2017goal']['$t']).format('$0.0a');
