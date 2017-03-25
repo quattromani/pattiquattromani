@@ -3119,7 +3119,7 @@ hr {
     color: #919191; }
 
 .chl {
-  background-color: #fafeff;
+  background-color: #f1f0f0;
   color: #58595b;
   font-family: "Gotham-Book", sans-serif;
   text-align: center; }
@@ -3169,7 +3169,6 @@ hr {
     max-width: 100%;
     margin: 0 auto;
     background-color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: auto; }
     .chl .card header {
       padding: 2rem;
@@ -3177,11 +3176,15 @@ hr {
       color: white;
       font-family: "Gotham-Book", sans-serif;
       font-size: 24px; }
+    .chl .card h3 {
+      font-family: "Gotham-Book", sans-serif;
+      font-size: 22px; }
+    .chl .card .h5 {
+      font-family: "Gotham-Book", sans-serif;
+      font-size: 16px; }
     .chl .card .card-body {
-      padding: 2rem; }
-      .chl .card .card-body h3 {
-        font-family: "Gotham-Book", sans-serif;
-        font-size: 24px; }
+      padding: 2rem;
+      border-bottom: 1px solid #bbbebc; }
       .chl .card .card-body .goal {
         color: #57585a; }
     .chl .card .branch {
@@ -3194,22 +3197,16 @@ hr {
         color: white;
         font-family: 'Gotham-Book' !important;
         font-size: 20px; }
+    .chl .card .monthly-units span,
+    .chl .card .yearly-units span {
+      color: #3a7da9; }
     .chl .card footer {
-      padding: 2rem;
-      background-color: #fafeff;
+      border-top: 1px solid #fafeff;
+      background-color: #f1f0f0;
       text-align: center; }
       .chl .card footer h3 {
-        color: white;
-        font-family: 'Gotham-Book' !important;
-        font-size: 20px;
-        text-align: center; }
-      .chl .card footer address {
-        font-size: 12px;
-        font-size: 1.2rem;
-        color: #929292; }
+        margin-bottom: 0; }
   .chl .date-holder {
     padding: 10px 0;
-    margin-top: 1rem;
-    background-color: #f1f0f0;
     color: #58595b;
     text-align: center; }

@@ -70,7 +70,7 @@
 
 // Font Family Mixin
 @mixin font($font, $style: normal, $weight: normal) {
-  font-family: $font, Helvetica, Arial, sans-serif;
+  font-family: $font, Arial, sans-serif;
   font-style:  $style;
   font-weight: $weight;
 }
