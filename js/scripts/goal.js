@@ -4,6 +4,9 @@
  // Make sure it is public or set to Anyone with link can view
  var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/default/public/values?alt=json";
 
+// The URL
+// https://spreadsheets.google.com/feeds/list/15t_UyCVhfBd7hebuJmbwD-sr67phcR3BdCi_SFinvKs/default/public/values?alt=json
+
  $.getJSON(url, function(data) {
 
   var entry = data.feed.entry[0];
@@ -16,18 +19,18 @@
   var year = entry['gsx$year']['$t'];
   $('.year').append(year);
 
-  var monthlyUnits = entry['gsx$march2017units']['$t'];
+  var monthlyUnits = entry['gsx$april2017units']['$t'];
   $('.monthly-units').append('<span>' + monthlyUnits + '</span>');
 
   var yearlyUnits = entry['gsx$units']['$t'];
   $('.yearly-units').append('<span>' + yearlyUnits + '</span>');
 
   // Months
-  var monthlyGoal = entry['gsx$march2017goal']['$t'];
-  var monthlyGoalConverted = numeral(entry['gsx$march2017goal']['$t']).format('$0.0a');
+  var monthlyGoal = entry['gsx$april2017goal']['$t'];
+  var monthlyGoalConverted = numeral(entry['gsx$april2017goal']['$t']).format('$0.0a');
   $('.monthly-goal').append(monthlyGoalConverted);
 
-  var monthlyCurrent = entry['gsx$march2017actual']['$t'];
+  var monthlyCurrent = entry['gsx$april2017actual']['$t'];
   var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
   $('.month-goal .monthly-current').append(monthlyCurrentConverted);
 
