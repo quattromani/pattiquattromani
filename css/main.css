@@ -3183,8 +3183,7 @@ hr {
       font-family: "Gotham-Book", sans-serif;
       font-size: 16px; }
     .chl .card .card-body {
-      padding: 2rem;
-      border-bottom: 1px solid #bbbebc; }
+      padding: 2rem; }
       .chl .card .card-body .goal {
         color: #57585a; }
     .chl .card .branch {
