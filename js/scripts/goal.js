@@ -19,18 +19,18 @@
   var year = entry['gsx$year']['$t'];
   $('.year').append(year);
 
-  var monthlyUnits = entry['gsx$july2017units']['$t'];
+  var monthlyUnits = entry['gsx$august2017units']['$t'];
   $('.monthly-units').append('<span>' + monthlyUnits + '</span>');
 
   var yearlyUnits = entry['gsx$units']['$t'];
   $('.yearly-units').append('<span>' + yearlyUnits + '</span>');
 
   // Months
-  var monthlyGoal = entry['gsx$july2017goal']['$t'];
-  var monthlyGoalConverted = numeral(entry['gsx$july2017goal']['$t']).format('$0.0a');
+  var monthlyGoal = entry['gsx$august2017goal']['$t'];
+  var monthlyGoalConverted = numeral(entry['gsx$august2017goal']['$t']).format('$0.0a');
   $('.monthly-goal').append(monthlyGoalConverted);
 
-  var monthlyCurrent = entry['gsx$july2017actual']['$t'];
+  var monthlyCurrent = entry['gsx$august2017actual']['$t'];
   var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
   $('.month-goal .monthly-current').append(monthlyCurrentConverted);
 
