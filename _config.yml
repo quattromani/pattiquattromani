@@ -4,7 +4,7 @@ email: patti@pattiquattromani.com
 url: https://quattromani.github.io
 enforce_ssl: quattromani.github.io/pattiquattromani
 description:
-baseurl: "pattiquattromani"
+baseurl: "/pattiquattromani"
 twitter_username: frogprincess1974
 github_username:  quattromani
 
