@@ -1,3 +1,11 @@
+// Identify the month
+var months    = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+var now       = new Date();
+var thisMonth = months[now.getMonth()]; // getMonth method returns the month of the date (0-January :: 11-December)
+var output = document.getElementById('output');
+console.log(thisMonth);
+
+
  // ID of the Google Spreadsheet
  var spreadsheetID = "15t_UyCVhfBd7hebuJmbwD-sr67phcR3BdCi_SFinvKs";
 
@@ -7,7 +15,7 @@
 // The URL
 // https://spreadsheets.google.com/feeds/list/15t_UyCVhfBd7hebuJmbwD-sr67phcR3BdCi_SFinvKs/default/public/values?alt=json
 
- $.getJSON(url, function(data) {
+$.getJSON(url, function(data) {
 
   var entry = data.feed.entry[0];
 
@@ -19,18 +27,18 @@
   var year = entry['gsx$year']['$t'];
   $('.year').append(year);
 
-  var monthlyUnits = entry['gsx$august2017units']['$t'];
+  var monthlyUnits = entry['gsx$' + thisMonth + '2017units']['$t'];
   $('.monthly-units').append('<span>' + monthlyUnits + '</span>');
 
   var yearlyUnits = entry['gsx$units']['$t'];
   $('.yearly-units').append('<span>' + yearlyUnits + '</span>');
 
   // Months
-  var monthlyGoal = entry['gsx$august2017goal']['$t'];
-  var monthlyGoalConverted = numeral(entry['gsx$august2017goal']['$t']).format('$0.0a');
+  var monthlyGoal = entry['gsx$' + thisMonth + '2017goal']['$t'];
+  var monthlyGoalConverted = numeral(entry['gsx$' + thisMonth + '2017goal']['$t']).format('$0.0a');
   $('.monthly-goal').append(monthlyGoalConverted);
 
-  var monthlyCurrent = entry['gsx$august2017actual']['$t'];
+  var monthlyCurrent = entry['gsx$' + thisMonth + '2017actual']['$t'];
   var monthlyCurrentConverted = numeral(monthlyCurrent).format('$0.0a');
   $('.month-goal .monthly-current').append(monthlyCurrentConverted);
 
@@ -49,8 +57,7 @@
   var yearlyPerc = ((yearlyCurrent/yearlyGoal) * 100).toFixed(2) + '%';
   $('.year-goal .progress-bar').css('width', yearlyPerc);
 
-  var month = data.feed['title']['$t'];
-  $('.month').append(month);
+  $('.month').append(thisMonth);
 
 });
 
