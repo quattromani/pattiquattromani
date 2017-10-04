@@ -1,5 +1,5 @@
 // Identify the month
-var months    = ['january','febraury','march','april','may','june','july','august','september','september','november','december'];
+var months    = ['january','febraury','march','april','may','june','july','august','september','october','november','december'];
 var now       = new Date();
 var thisMonth = months[now.getMonth()]; // getMonth method returns the month of the date (0-January :: 11-December)
 var output = document.getElementById('output');
